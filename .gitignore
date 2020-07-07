@@ -1,0 +1,5 @@
+*userdb/
+build/
+sync/
+*.db
+*.log

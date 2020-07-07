@@ -1,0 +1,18 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Jun 15 00:15:11 2020"
+  rime_version: 1.5.3
+patch:
+  "key_binder/bindings":
+    - {accept: "Control+e", send: "End", when: composing}
+    - {accept: "Control+h", send_sequence: "{Home}{Right}{Right}", when: composing}
+    - {accept: "Control+j", send_sequence: "{Left}", when: composing}
+    - {accept: "Control+k", send_sequence: "{Right}", when: composing}
+    - {accept: "Control+l", send_sequence: "{Right}{Right}", when: composing}
+    - {accept: "space", send_sequence: "{space}{Home}{Right}{Right}", when: composing}
+  schema_list:
+    - {schema: zrm}
+    - {schema: xkjd6}
+    - {schema: xkjd6dz}
